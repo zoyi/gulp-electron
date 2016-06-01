@@ -454,6 +454,7 @@ distributePlist = function(darwin, name, targetAppPath) {
     }
     if (darwin.CFBundleVersion != null) {
       contentsPlist.CFBundleVersion = darwin.CFBundleVersion;
+      contentsPlist.CFBundleShortVersionString = darwin.CFBundleVersion;
     }
     if (darwin.CFBundleExecutable != null) {
       contentsPlist.CFBundleExecutable = darwin.CFBundleExecutable;
