@@ -46,7 +46,12 @@ gulp.task('electron', function() {
                 icon: 'gulp-electron.icns'
             },
             win: {
-                "version-string": packageJson.version,
+                "version-string": {
+                  "CompanyName": "Your company name",
+                  "FileDescription": "Application information",
+                  "LegalCopyright": "Your copyright",
+                  "ProductName": "Application product's name"
+                },
                 "file-version": packageJson.version,
                 "product-version": packageJson.version,
                 "icon": 'gulp-electron.ico'
