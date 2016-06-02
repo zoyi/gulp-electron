@@ -30,6 +30,9 @@ $RECYCLE.BIN/
 # Linux trash folder which might appear on any partition or disk
 .Trash-*
 
+# Intellij
+.idea/
+
 
 ### https://raw.github.com/github/gitignore/2f4cb0220d9f041e0cd3616d7c51aa146195cc6b/Global/osx.gitignore
 
